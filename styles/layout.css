@@ -1,0 +1,80 @@
+:root {
+  // default theme color
+  // can be overrided by uses `themeConfig` option
+  --slidev-theme-primary: #20d789;
+  --glow: 32, 215, 137; // is the same as primary
+}
+
+.slidev-layout {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif;
+  }
+
+  h1 {
+    @apply uppercase font-bold;
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  a {
+    @apply text-$slidev-theme-primary border-b border-solid;
+    &:hover {
+      filter: drop-shadow(0 0 3px rgba(var(--glow), 0.29))
+        drop-shadow(0 0 7px rgba(var(--glow), 0.35));
+    }
+  }
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply relative capitalize font-bold text-6xl leading-20 text-$slidev-theme-primary;
+    font-stretch: expanded;
+    filter: drop-shadow(0 0 3px rgba(var(--glow), 0.29))
+      drop-shadow(0 0 7px rgba(var(--glow), 0.35));
+  }
+
+  h1 + p {
+    @apply -mt-2 opacity-70 mb-4;
+  }
+
+  p + h2,
+  ul + h2,
+  table + h2 {
+    @apply mt-10;
+  }
+}
+
+.slidev-layout.section {
+  h1 {
+    @apply relative capitalize font-bold text-6xl leading-20 text-$slidev-theme-primary;
+    font-stretch: expanded;
+    filter: drop-shadow(0 0 3px rgba(var(--glow), 0.29))
+      drop-shadow(0 0 7px rgba(var(--glow), 0.35));
+  }
+
+  h1 + p {
+    @apply -mt-2 opacity-70 mb-4;
+  }
+}
+
+/*TODO: add to Windi plugins*/
+.glow {
+  filter: drop-shadow(0 0 3px rgba(var(--glow), 0.29))
+    drop-shadow(0 0 7px rgba(var(--glow), 0.35));
+}
+
+.header-title:after {
+  content: '';
+  @apply absolute top-3 ml-2 w-full border-2 rounded-full
+    border-$slidev-theme-primary;
+}
