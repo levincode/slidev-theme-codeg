@@ -27,24 +27,33 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 This theme provides the following layouts:
 
-`default`
+### `default`
 ![default](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/04.png)
-`cover`
+
+### `cover`
 ![cover](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/01.png)
-`quote`
+
+### `quote`
 ![quote](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/02.png)
-`section`
+
+### `section`
 ![section](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/03.png)
-`center`
+
+### `center`
 ![center](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/11.png)
-`two-cols`
+
+### `two-cols`
 ![two-cols](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/10.png)
-`image`
+
+### `image`
 ![image](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/05.png)
-`image-left`
+
+### `image-left`
 ![image-left](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/08.png)
-`image-right`
+
+### `image-right`
 ![image-right](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/09.png)
+
 
 ## Components
 
