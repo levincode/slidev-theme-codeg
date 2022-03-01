@@ -28,23 +28,23 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 This theme provides the following layouts:
 
 `default`
-![default](screenshots/04.png)
+![default](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/04.png)
 `cover`
-![default](screenshots/01.png)
+![cover](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/01.png)
 `quote`
-![default](screenshots/02.png)
+![quote](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/02.png)
 `section`
-![default](screenshots/03.png)
+![section](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/03.png)
 `center`
-![default](screenshots/11.png)
+![center](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/11.png)
 `two-cols`
-![default](screenshots/10.png)
+![two-cols](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/10.png)
 `image`
-![default](screenshots/05.png)
+![image](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/05.png)
 `image-left`
-![default](screenshots/08.png)
+![image-left](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/08.png)
 `image-right`
-![default](screenshots/09.png)
+![image-right](https://cdn.jsdelivr.net/gh/luis-vivas/slidev-theme-codeg@main/screenshots/09.png)
 
 ## Components
 
@@ -63,3 +63,6 @@ See [example.md](https://github.com/luis-vivas/slidev-theme-codeg/blob/main/exam
 - Edit the `example.md` and style to see the changes
 - `npm run export` to generate the preview PDF
 - `npm run screenshot` to generate the preview PNG
+
+
+MIT License © 2022 | [luis-vivas](https://github.com/luis-vivas)
