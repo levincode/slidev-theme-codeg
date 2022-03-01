@@ -5,6 +5,7 @@ info: |
   My first [Slidev](http://sli.dev/) presentations!
 title: Codeg Theme
 hideInToc: true
+colorSchema: 'dark'
 fonts:
   # like font-family in css, you can use `,` to separate multiple fonts for fallback
   mono: 'Fira Code'

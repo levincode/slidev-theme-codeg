@@ -10,7 +10,7 @@ export default defineWindiSetup(() => ({
   shortcuts: {
     // custom the default background
     'bg-main': 'bg-white text-[#181818] dark:(bg-[#202226] text-[#ddd])',
-    'header-title': 'text-lg uppercase font-bold ml-8 tracking-wider',
+    'header-title': 'text-lg uppercase font-semibold ml-8 tracking-wider',
     'glow': 'text-$slidev-theme-primary',
   },
 }))

@@ -73,7 +73,7 @@ pre[class*='language-'] {
 :not(pre) > code {
   font-size: 0.9em;
   background: var(--prism-background);
-  @apply font-light py-0.5 rounded;
+  @apply text-black dark:text-current font-light py-0.5 rounded;
   font-stretch: expanded;
 }
 

@@ -19,12 +19,16 @@
     @apply uppercase font-bold;
   }
 
+  h2 {
+    @apply font-medium;
+  }
+
   ul {
     list-style: disc;
   }
 
   a {
-    @apply text-$slidev-theme-primary border-b border-solid;
+    @apply text-$slidev-theme-primary font-semibold dark:font-normal border-b border-solid;
     &:hover {
       filter: drop-shadow(0 0 3px rgba(var(--glow), 0.29))
         drop-shadow(0 0 7px rgba(var(--glow), 0.35));

@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-codeg",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "keywords": [
     "slidev-theme",
     "slidev",
@@ -34,7 +34,8 @@
       "fonts": {
         "sans": "Krub",
         "serif": "Rubik",
-        "mono": "Fira Code"
+        "mono": "Fira Code",
+        "weights": "200,400,500,600,700"
       },
       "hightlighter": "prism"
     }
